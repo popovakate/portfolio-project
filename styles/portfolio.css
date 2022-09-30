@@ -67,5 +67,15 @@ p {
 
   .hero {
     text-align: center;
+    padding: 100px 50px;
+  }
+  .photo {
+    max-width: 200px;
+    margin-top: 20px;
+  }
+
+  .contact-links .fa-custom {
+    font-size: 25px;
+    text-align: center;
   }
 }
