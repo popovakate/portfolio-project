@@ -1,11 +1,14 @@
 :root {
   --main-font: "PT Sans", sans-serif;
 }
-body {
+.hero {
   background-color: #fcfbfb;
+  padding: 150px 50px;
 }
+
 h1,
-h2 {
+h2,
+h3 {
   color: #2f2e2e;
   font-family: var(--main-font);
 }
@@ -17,18 +20,17 @@ h1 {
 h2 {
   font-size: 30px;
 }
+h3 {
+  font-size: 40px;
+}
 p {
   font-family: var(--main-font);
   font-size: 20px;
   color: #4d4b4b;
 }
 .photo {
-  max-width: 300px;
   border-radius: 50%;
-}
-
-.container {
-  margin-top: 150px;
+  max-width: 300px;
 }
 
 .contact-links {
@@ -48,4 +50,22 @@ p {
 .fa-custom {
   font-size: 30px;
   color: #874c62;
+}
+
+.projects-section {
+  margin: 30px;
+}
+
+.weather-descriprion {
+  padding: 20px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .hero {
+    text-align: center;
+  }
 }
