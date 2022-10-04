@@ -59,6 +59,18 @@ p {
 .weather-descriprion {
   padding: 20px;
 }
+.about-section {
+  padding: 80px 70px;
+}
+
+.about-section-photo {
+  max-width: 350px;
+  border-radius: 10%;
+}
+
+.about-section p {
+  font-size: 27px;
+}
 
 @media (max-width: 960px) {
   h1 {
@@ -66,15 +78,28 @@ p {
   }
 
   .hero {
-    padding: 100px 50px;
+    padding: 70px 50px;
   }
   .photo {
     max-width: 200px;
     margin: 0 auto;
   }
+  .about-section-photo {
+    max-width: 250px;
+    margin: 15px;
+  }
 
   .contact-links .fa-custom {
     font-size: 25px;
+    text-align: center;
+  }
+
+  .about-section {
+    padding: 10px 50px;
+  }
+
+  .about-section p {
+    font-size: 20px;
     text-align: center;
   }
 }
