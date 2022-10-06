@@ -52,6 +52,11 @@ p {
   color: #874c62;
 }
 
+.fa-contact-page {
+  font-size: 50px;
+  color: #874c62;
+}
+
 .projects-section {
   margin: 30px;
 }
@@ -70,6 +75,14 @@ p {
 
 .about-section p {
   font-size: 27px;
+}
+
+.contact-info a {
+  padding: 0px 15px;
+}
+.contact-page {
+  background-color: #fcfbfb;
+  padding: 150px 200px;
 }
 
 @media (max-width: 960px) {
