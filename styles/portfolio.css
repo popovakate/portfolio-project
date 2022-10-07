@@ -77,7 +77,7 @@ p {
 .contact-links {
   justify-content: center;
   text-align: center;
-  margin: 50px;
+  margin: 50px 50px 20px 50px;
 }
 .contact-links a {
   padding: 0px 15px;
@@ -129,6 +129,17 @@ p {
   padding: 150px 20px;
 }
 
+.github-link {
+  text-align: center;
+  font-size: 15px;
+  padding: 0px 0px 25px 0px;
+}
+.github-link a {
+  color: #2f2e2e;
+}
+.github-link a:hover {
+  color: #874c62;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 40px;
